@@ -1,0 +1,80 @@
+.container {
+  height: 60vh;
+  width: 20vw;
+  min-width: 360px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.controller {
+  width: 100%;
+  height: 25%;
+  background-color: lightgrey;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+}
+
+.score-table {
+  display: table;
+}
+
+.score-types,
+.scores {
+  display: table-row;
+}
+
+span {
+  display: table-cell;
+}
+
+span:first-child {
+  text-align: center;
+  padding-right: 10px;
+  position: relative;
+}
+
+span:last-child {
+  text-align: center;
+  padding-left: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.drop-button {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+
+.ball-dropper {
+  height: 75%;
+  width: auto;
+  overflow-y: auto;
+}
+
+.ball-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ball-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.ball {
+  margin-bottom: 15%;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  display: inline-block;
+}
